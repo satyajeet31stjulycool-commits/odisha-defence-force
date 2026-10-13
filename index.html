@@ -1,279 +1,195 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#07140e">
 <title>INDIAN DEFENCE FORCE</title>
-
 <style>
-:root {
-  --bg: #07140e;
-  --panel: #101f17;
-  --green: #1f8b4c;
-  --gold: #ffd166;
-  --text: #f4f7f4;
-  --muted: #a9b9ad;
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
-  background:
-    radial-gradient(ellipse at top, #1a422b 0%, transparent 55%),
-    linear-gradient(145deg, #050b08, var(--bg));
-  color: var(--text);
-}
-header {
-  padding: 22px 16px;
-  text-align: center;
-  border-bottom: 1px solid #ffffff1c;
-  background: #06100bd9;
-}
-.flag {
-  font-size: 38px;
-  margin-bottom: 8px;
-}
-.logo {
-  color: var(--gold);
-  font-weight: 900;
-  font-size: clamp(23px, 6vw, 34px);
-  letter-spacing: 2px;
-  text-shadow: 0 0 18px #ffd16633;
-}
-.subtitle {
-  margin-top: 8px;
-  font-size: 11px;
-  color: var(--muted);
-  letter-spacing: 3px;
-}
-.badge {
-  display: inline-block;
-  margin-top: 14px;
-  padding: 7px 13px;
-  border: 1px solid #ffd16666;
-  border-radius: 30px;
-  color: var(--gold);
-  font-size: 11px;
-  letter-spacing: 1px;
-}
-main {
-  width: min(100% - 28px, 440px);
-  margin: 28px auto;
-}
-.card {
-  background: linear-gradient(150deg, #14271b, #0b1710);
-  border: 1px solid #ffffff20;
-  border-radius: 20px;
-  padding: 24px 20px;
-  box-shadow: 0 20px 60px #0005;
-}
-h1 {
-  margin: 0;
-  text-align: center;
-  font-size: 25px;
-}
-.description {
-  text-align: center;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.6;
-  margin: 12px 0 24px;
-}
-label {
-  display: block;
-  margin: 16px 0 8px;
-  color: #dbe8dd;
-  font-size: 12px;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-input {
-  width: 100%;
-  padding: 15px;
-  color: white;
-  background: #06110a;
-  border: 1px solid #ffffff26;
-  border-radius: 11px;
-  outline: none;
-  font-size: 15px;
-}
-input:focus {
-  border-color: #55ce7d;
-  box-shadow: 0 0 0 3px #55ce7d18;
-}
-button {
-  width: 100%;
-  border: 0;
-  border-radius: 11px;
-  padding: 15px;
-  font-size: 14px;
-  font-weight: 800;
-  cursor: pointer;
-}
-.primary {
-  margin-top: 22px;
-  color: #06140a;
-  background: linear-gradient(100deg, #ffd166, #f5b83d);
-}
-.secondary {
-  margin-top: 10px;
-  color: white;
-  background: #ffffff0b;
-  border: 1px solid #ffffff24;
-}
-.notice {
-  display: none;
-  padding: 12px;
-  margin-top: 15px;
-  border-radius: 10px;
-  font-size: 13px;
-  line-height: 1.5;
-  background: #ffd16612;
-  border: 1px solid #ffd16644;
-  color: #ffe4a1;
-}
-.features {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 18px;
-}
-.feature {
-  padding: 16px 12px;
-  border: 1px solid #ffffff18;
-  background: #ffffff06;
-  border-radius: 13px;
-}
-.feature-icon { font-size: 23px; }
-.feature-title {
-  margin-top: 8px;
-  font-size: 12px;
-  font-weight: bold;
-}
-.feature-text {
-  margin-top: 5px;
-  font-size: 11px;
-  line-height: 1.5;
-  color: var(--muted);
-}
-footer {
-  padding: 8px 20px 28px;
-  text-align: center;
-  color: #829387;
-  font-size: 11px;
-  line-height: 1.8;
-}
-footer strong { color: #dce9df; }
+:root{--bg:#07140e;--panel:#101f17;--panel2:#14291d;--gold:#ffd166;--green:#1f8b4c;--text:#f4f7f4;--muted:#a8b9ad;--line:#294334;--red:#ff8b8b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#163c27 0,#07140e 55%);color:var(--text);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;min-height:100vh}
+header{padding:22px 16px 18px;text-align:center;border-bottom:1px solid var(--line);background:#06110cdd}
+.flag{font-size:32px}h1{margin:4px 0;color:var(--gold);font-size:clamp(22px,5vw,34px);letter-spacing:1px}header p{margin:3px 0;color:var(--muted);letter-spacing:2px;font-size:12px}
+.wrap{width:min(960px,100%);margin:auto;padding:20px 14px 42px}.card{background:linear-gradient(145deg,#12251a,#0d1b13);border:1px solid var(--line);border-radius:18px;padding:20px;margin:0 0 16px;box-shadow:0 12px 32px #0003}
+h2{font-size:20px;margin:0 0 14px}h3{font-size:16px;margin:0 0 10px;color:var(--gold)}
+label{display:block;color:#dbe7de;font-size:13px;margin:12px 0 5px}input,select{width:100%;background:#07140e;border:1px solid #355443;border-radius:10px;padding:12px;color:white;font:inherit;outline:none}input:focus,select:focus{border-color:var(--gold)}
+button{border:0;border-radius:10px;padding:12px 15px;background:var(--green);color:white;font:600 14px system-ui;cursor:pointer;margin-top:12px;width:100%}button.secondary{background:#20392a;border:1px solid #42604b}button.gold{background:var(--gold);color:#162016}button.danger{background:#672e2e}button:disabled{opacity:.55;cursor:wait}
+.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.stat{padding:14px;border-radius:12px;background:#0a1810;border:1px solid var(--line);text-align:center}.stat strong{display:block;font-size:23px;color:var(--gold)}.stat span{font-size:12px;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:5px;border-radius:99px;padding:4px 9px;font-size:12px;font-weight:700;margin:3px 4px 3px 0}.verified{background:#153d71;color:#c7e4ff;border:1px solid #4da0ff}.vip{background:#493817;color:#ffe29a;border:1px solid #cda23e}
+.muted{color:var(--muted);font-size:13px}.notice{display:none;padding:11px 13px;border-radius:10px;margin:0 0 14px;background:#163522;border:1px solid #2c6942}.notice.error{background:#3a1d1d;border-color:#8d4242;color:#ffd2d2}.hidden{display:none!important}.item{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.item:last-child{border-bottom:0}.rank{width:30px;color:var(--gold);font-weight:800}.memberline{display:flex;align-items:center;gap:10px;min-width:0}.membername{font-weight:700;overflow-wrap:anywhere}.coins{color:var(--gold);font-weight:800;white-space:nowrap}.smallbtn{width:auto;margin:4px 3px 0;padding:8px 10px;font-size:12px}.foot{text-align:center;color:var(--muted);font-size:12px;padding:12px}
+@media(max-width:560px){.row,.stats{grid-template-columns:1fr}.card{padding:16px}.item{align-items:flex-start}.item .right{text-align:right}}
 </style>
 </head>
-
 <body>
-<header>
-  <div class="flag">🇮🇳</div>
-  <div class="logo">ODISHA DEFENCE FORCE</div>
-  <div class="subtitle">DISCIPLINE • UNITY • HONOUR</div>
-  <div class="badge">🛡️ MEMBER PORTAL</div>
-</header>
+<header><div class="flag">🇮🇳</div><h1>INDIAN DEFENCE FORCE</h1><p>DISCIPLINE • UNITY • HONOUR</p><p style="letter-spacing:1px;margin-top:10px">🛡️ PRIVATE MEMBER PORTAL</p></header>
+<main class="wrap">
+<div id="notice" class="notice" role="status"></div>
+<section id="loginView" class="card">
+<h2>🔐 Member Login</h2>
+<p class="muted">Your account must be created by the portal administrator. There is no public signup.</p>
+<form id="loginForm">
+<label for="memberName">Assigned Name</label><input id="memberName" autocomplete="username" required maxlength="80" placeholder="Enter your assigned name">
+<label for="orNumber">OR Number</label><input id="orNumber" autocomplete="username" required maxlength="50" placeholder="Enter your OR number">
+<label for="pinCode">PIN / Password</label><input id="pinCode" type="password" autocomplete="current-password" required minlength="8" placeholder="Enter your password (8+ characters)">
+<button id="loginBtn" type="submit">LOGIN SECURELY</button>
+</form>
+<p class="muted">Forgot your password? Contact the administrator. Never share your password or PIN.</p>
+</section>
 
-<main>
-  <section class="card">
-    <h1>Member Login</h1>
-    <p class="description">
-      Welcome to the ODF digital portal.<br>
-      Enter your assigned member details.
-    </p>
-
-    <form id="loginForm">
-      <label for="memberName">ID NAME</label>
-      <input id="memberName" type="text"
-        placeholder="Enter your assigned name"
-        autocomplete="username" required maxlength="60">
-
-      <label for="orNumber">OR NUMBER</label>
-      <input id="orNumber" type="text"
-        placeholder="Enter your OR number"
-        autocomplete="off" required maxlength="30">
-
-      <label for="pinCode">PIN CODE / PASSWORD</label>
-      <input id="pinCode" type="password"
-        placeholder="Enter your password"
-        autocomplete="current-password" required maxlength="128">
-
-      <button class="primary" type="submit">🔐 LOGIN</button>
-      <button class="secondary" type="button" id="newLogin">
-        ➕ NEW MEMBER?
-      </button>
-
-      <div class="notice" id="notice" role="status"></div>
-    </form>
-  </section>
-
-  <section class="features">
-    <div class="feature">
-      <div class="feature-icon">🛡️</div>
-      <div class="feature-title">SECURE PORTAL</div>
-      <div class="feature-text">Member access will use server-side authentication.</div>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">👑</div>
-      <div class="feature-title">VIP MEMBERSHIP</div>
-      <div class="feature-text">20,000 coins for one year of VIP access.</div>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">🪙</div>
-      <div class="feature-title">COIN REWARDS</div>
-      <div class="feature-text">Earn admin-awarded coins and redeem virtual rewards.</div>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">🔵</div>
-      <div class="feature-title">VERIFIED BADGE</div>
-      <div class="feature-text">Only the portal administrator can grant verification.</div>
-    </div>
-  </section>
+<section id="dashboardView" class="hidden">
+<div class="card">
+<div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap">
+<div><h2 style="margin-bottom:4px">Welcome, <span id="welcomeName">Member</span></h2><div id="memberBadges"></div><p class="muted" id="memberOr"></p></div>
+<button class="secondary" id="logoutBtn" style="width:auto;margin:0">LOG OUT</button>
+</div>
+<div class="stats" style="margin-top:18px">
+<div class="stat"><strong id="myCoins">0</strong><span>YOUR COINS 🪙</span></div>
+<div class="stat"><strong id="myRank">—</strong><span>LEADERBOARD RANK</span></div>
+<div class="stat"><strong id="vipStatus">No</strong><span>VIP MEMBERSHIP</span></div>
+</div>
+</div>
+<div class="card"><h2>🏆 Top 20 Leaderboard</h2><p class="muted">Rankings are based on coin balance. Only display names and badges are shown.</p><div id="leaderboard"><p class="muted">Loading leaderboard…</p></div></div>
+<div id="adminPanel" class="hidden">
+<div class="card">
+<h2>🛡️ Admin Dashboard</h2><p class="muted">Create member accounts, award coins, and manage verification. Member accounts are created only by an admin.</p>
+<h3>Create Member</h3>
+<form id="createForm">
+<label for="newName">Member Name</label><input id="newName" required maxlength="80" placeholder="Assigned display name">
+<label for="newOr">OR Number</label><input id="newOr" required maxlength="50" placeholder="Unique OR number">
+<label for="newPin">Initial Password (minimum 8 characters)</label><input id="newPin" type="password" required minlength="8" autocomplete="new-password" placeholder="Set a strong password">
+<button id="createBtn" type="submit">CREATE MEMBER ACCOUNT</button>
+</form>
+</div>
+<div class="card"><h2>👥 Manage Members</h2><p class="muted">Choose a member to award coins or grant/revoke verification.</p><div id="memberList"><p class="muted">Loading members…</p></div></div>
+</div>
+</section>
 </main>
-
-<footer>
-  <strong>ODISHA DEFENCE FORCE</strong><br>
-  Private community portal concept<br>
-  This website is not an official government or military website.
-</footer>
-
+<div class="foot">INDIAN DEFENCE FORCE • Private community portal concept<br>This website is not an official government or military website.</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-const form = document.getElementById("loginForm");
-const notice = document.getElementById("notice");
-
-function showNotice(message) {
-  notice.textContent = message;
-  notice.style.display = "block";
-}
-
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
-
-  // Demo only: no credentials are sent or stored.
-  showNotice(
-    "The login interface is ready, but authentication is not connected yet. " +
-    "Next, we will configure Supabase for secure member accounts."
-  );
-});
-
-document.getElementById("newLogin").addEventListener("click", function() {
-  showNotice(
-    "Member accounts must be created by the administrator. " +
-    "New account registration will be enabled after the secure backend is configured."
-  );
-});
-</script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script>
+(() => {
+  // Supabase project public publishable key. Never put a service-role/secret key in this file.
   const SUPABASE_URL = "https://nlwcxdlatzqtpicqbbej.supabase.co";
   const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_ABGA6j-ML1UxwikZy7u8QQ_D49kNPS6";
+  const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+  const $ = id => document.getElementById(id);
+  let currentUser = null, myProfile = null, isAdmin = false, leaderboardRows = [];
 
-  const supabaseClient = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_PUBLISHABLE_KEY
-  );
+  function message(text, error=false) {
+    const el=$("notice"); el.textContent=text; el.classList.toggle("error",error); el.style.display="block";
+    window.scrollTo({top:0,behavior:"smooth"});
+  }
+  function clearMessage(){ $("notice").style.display="none"; }
+  function esc(s){return String(s ?? "").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+  function aliasEmail(orNumber){ return "or-"+encodeURIComponent(orNumber.trim().toLowerCase())+"@members.odf.invalid"; }
+  function badgeHtml(p){
+    let out="";
+    if(p.is_verified) out+='<span class="badge verified">🔵 ✓ VERIFIED</span>';
+    if(p.is_vip && p.vip_expires_at && new Date(p.vip_expires_at)>new Date()) out+='<span class="badge vip">👑 VIP</span>';
+    return out;
+  }
+  async function loadProfile(user){
+    const {data,error}=await db.from("profiles").select("id,display_name,or_number,coins,is_verified,is_vip,vip_expires_at").eq("id",user.id).single();
+    if(error) throw new Error("Profile load failed: "+error.message);
+    return data;
+  }
+  async function loadRole(user){
+    const {data,error}=await db.from("app_roles").select("role").eq("user_id",user.id).maybeSingle();
+    if(error) throw new Error("Role check failed: "+error.message);
+    return data?.role==="admin";
+  }
+  async function loadLeaderboard(){
+    const {data,error}=await db.from("leaderboard_public").select("id,display_name,coins,is_verified,is_vip,vip_expires_at").order("coins",{ascending:false}).limit(20);
+    if(error){
+      $("leaderboard").innerHTML='<p class="muted">Leaderboard is blocked by database permissions. Apply the SQL setup shown with this file, then refresh.</p>';
+      return;
+    }
+    leaderboardRows=data||[];
+    $("leaderboard").innerHTML=leaderboardRows.length?leaderboardRows.map((p,i)=>`<div class="item"><div class="memberline"><span class="rank">#${i+1}</span><div><div class="membername">${esc(p.display_name)} ${badgeHtml(p)}</div></div></div><div class="coins">${Number(p.coins)||0} 🪙</div></div>`).join(""):'<p class="muted">No members to rank yet.</p>';
+    const rank=leaderboardRows.findIndex(p=>p.id===currentUser?.id);
+    $("myRank").textContent=rank>=0?"#"+(rank+1):"—";
+  }
+  async function renderApp(){
+    clearMessage();
+    const {data:{user},error}=await db.auth.getUser();
+    if(error) throw error;
+    if(!user){ $("loginView").classList.remove("hidden"); $("dashboardView").classList.add("hidden"); return; }
+    currentUser=user; myProfile=await loadProfile(user); isAdmin=await loadRole(user);
+    $("loginView").classList.add("hidden"); $("dashboardView").classList.remove("hidden");
+    $("welcomeName").textContent=myProfile.display_name;
+    $("memberOr").textContent="OR Number: "+myProfile.or_number;
+    $("memberBadges").innerHTML=badgeHtml(myProfile);
+    $("myCoins").textContent=Number(myProfile.coins)||0;
+    const vipActive=!!(myProfile.is_vip&&myProfile.vip_expires_at&&new Date(myProfile.vip_expires_at)>new Date());
+    $("vipStatus").textContent=vipActive?"Active":"No";
+    $("adminPanel").classList.toggle("hidden",!isAdmin);
+    await loadLeaderboard();
+    if(isAdmin) await loadMembers();
+  }
+  $("loginForm").addEventListener("submit",async e=>{
+    e.preventDefault(); clearMessage();
+    const btn=$("loginBtn");btn.disabled=true;btn.textContent="SIGNING IN…";
+    try{
+      const name=$("memberName").value.trim(), or=$("orNumber").value.trim(), pin=$("pinCode").value;
+      if(pin.length<8) throw new Error("Password must be at least 8 characters.");
+      // The synthetic email matches the email convention used by admin-create-member.
+      const {error}=await db.auth.signInWithPassword({email:aliasEmail(or),password:pin});
+      if(error) throw new Error("Login failed. Check your OR Number and password, then try again.");
+      await renderApp();
+      if(myProfile && myProfile.display_name.toLowerCase()!==name.toLowerCase()){
+        await db.auth.signOut(); currentUser=null;myProfile=null;
+        await renderApp();
+        throw new Error("The assigned Name does not match this OR Number.");
+      }
+      $("pinCode").value="";
+    }catch(err){message(err.message||"Login failed.",true);}
+    finally{btn.disabled=false;btn.textContent="LOGIN SECURELY";}
+  });
+  $("logoutBtn").addEventListener("click",async()=>{
+    const {error}=await db.auth.signOut();if(error)message(error.message,true);
+    currentUser=null;myProfile=null;isAdmin=false;await renderApp();
+  });
+  $("createForm").addEventListener("submit",async e=>{
+    e.preventDefault();clearMessage();
+    const btn=$("createBtn");btn.disabled=true;btn.textContent="CREATING…";
+    try{
+      const payload={name:$("newName").value.trim(),or_number:$("newOr").value.trim(),pin:$("newPin").value};
+      if(payload.pin.length<8)throw new Error("Password must be at least 8 characters.");
+      const {data:{session}}=await db.auth.getSession();
+      if(!session)throw new Error("Please sign in again.");
+      const res=await fetch(SUPABASE_URL+"/functions/v1/admin-create-member",{
+        method:"POST",headers:{"Content-Type":"application/json","Authorization":"Bearer "+session.access_token,"apikey":SUPABASE_PUBLISHABLE_KEY},body:JSON.stringify(payload)
+      });
+      const result=await res.json().catch(()=>({}));
+      if(!res.ok)throw new Error(result.error||result.message||("Member creation failed (HTTP "+res.status+")."));
+      $("createForm").reset();message("Member account created successfully.");
+      await loadMembers();
+    }catch(err){message(err.message||"Member creation failed.",true);}
+    finally{btn.disabled=false;btn.textContent="CREATE MEMBER ACCOUNT";}
+  });
+  async function loadMembers(){
+    const box=$("memberList");box.innerHTML='<p class="muted">Loading members…</p>';
+    // Admin-only RLS/policy is required for this query.
+    const {data,error}=await db.rpc("admin_list_members");
+    if(error){box.innerHTML='<p class="muted">Member list is blocked by database permissions. The admin-only SELECT policy must be installed.</p>';return;}
+    if(!data?.length){box.innerHTML='<p class="muted">No members yet.</p>';return;}
+    box.innerHTML=data.map(p=>`<div class="item"><div style="min-width:0"><div class="membername">${esc(p.display_name)} ${badgeHtml(p)}</div><div class="muted">OR: ${esc(p.or_number)} · ${Number(p.coins)||0} coins</div></div><div class="right"><button class="smallbtn" data-award="${esc(p.id)}" data-name="${esc(p.display_name)}">+ Coins</button><button class="smallbtn secondary" data-verify="${esc(p.id)}" data-value="${p.is_verified?"false":"true"}">${p.is_verified?"Unverify":"Verify"}</button></div></div>`).join("");
+    box.querySelectorAll("[data-award]").forEach(b=>b.addEventListener("click",async()=>{
+      const raw=prompt("How many coins should be awarded to "+b.dataset.name+"? Enter a whole number:");
+      if(raw===null)return;const amount=Number(raw);
+      if(!Number.isInteger(amount)||amount<1||amount>1000000){message("Enter a whole number from 1 to 1,000,000.",true);return;}
+      try{const {error}=await db.rpc("admin_award_coins",{target_user_id:b.dataset.award,coin_amount:amount});if(error)throw error;message("Coins awarded.");await refreshData();}
+      catch(err){message(err.message||"Could not award coins.",true);}
+    }));
+    box.querySelectorAll("[data-verify]").forEach(b=>b.addEventListener("click",async()=>{
+      try{const {error}=await db.rpc("admin_set_verified",{target_user_id:b.dataset.verify,verified_status:b.dataset.value==="true"});if(error)throw error;message("Verification status updated.");await refreshData();}
+      catch(err){message(err.message||"Could not update verification.",true);}
+    }));
+  }
+  async function refreshData(){myProfile=await loadProfile(currentUser);$("myCoins").textContent=Number(myProfile.coins)||0;$("memberBadges").innerHTML=badgeHtml(myProfile);await loadLeaderboard();if(isAdmin)await loadMembers();}
+  db.auth.onAuthStateChange((_event,session)=>{if(!session){$("loginView").classList.remove("hidden");$("dashboardView").classList.add("hidden");}});
+  renderApp().catch(err=>message(err.message||"Could not connect to the portal.",true));
+})();
 </script>
 </body>
 </html>
