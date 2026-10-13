@@ -266,5 +266,14 @@ document.getElementById("newLogin").addEventListener("click", function() {
   );
 });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script>
+  const SUPABASE_URL = "https://nlwcxdlatzqtpicqbbej.supabase.co";
+  const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_ABGA6j-ML1UxwikZy7u8QQ_D49kNPS6";
+
+  const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_PUBLISHABLE_KEY
+  );
+</script>
 </body>
 </html>
